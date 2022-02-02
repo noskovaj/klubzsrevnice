@@ -1,0 +1,28 @@
+title: Klub ZŠ Řevnice
+description: >- 
+  Webové stránky Klubu rodičů a přátel školy ZŠ Řevnice, z.s.
+baseurl: "" 
+url: "https://www.klubzsrevnice.cz/"
+
+plugins:
+  - jekyll-feed
+
+collections:
+  people:
+    output: true
+    permalink: /lide/:name
+
+
+exclude:
+  - .sass-cache/
+  - .template/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
