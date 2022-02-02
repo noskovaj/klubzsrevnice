@@ -1,5 +1,5 @@
 ---
-name: Zlatka Benešová
+jmeno: Zlatka Benešová
 position: 
 photo: zlatka.jpg
 mail: 

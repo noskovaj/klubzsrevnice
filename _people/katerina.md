@@ -1,5 +1,5 @@
 ---
-name: Kateřina Hüblová
+jmeno: Kateřina Hüblová
 position: pokladník
 photo: katerina.jpg
 mail: 

@@ -1,5 +1,5 @@
 ---
-name: Pavla Langová
+jmeno: Pavla Langová
 position: 
 photo: pavla.jpg
 mail: 

@@ -1,5 +1,5 @@
 ---
-name: Markéta Sedláčková Davidová
+jmeno: Markéta Sedláčková Davidová
 position: 
 photo: marketa.jpg
 mail: 

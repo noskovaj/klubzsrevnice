@@ -575,14 +575,14 @@ layout: default
                           {% if p.mail %}<li><a href="mailto:{{ p.mail }}"><i class="fa fa-envelope"></i></a></li>{% endif %}
                           {% if p.fb %}<li><a href="https://www.facebook.com/{{ p.fb }}"><i class="fab fa-facebook"></i></a></li>{% endif %}
                           {% if p.twitter %}<li><a href="https://twitter.com/{{ p.twitter }}"><i class="fab fa-twitter"></i></a></li>{% endif %}
-                          {% if p.linkedin %}<li><a href="www.linkedin.com/in/{{ p.linkedin }}"><i class="fab fa-linkedin"></i></a></li>{% endif %}
+                          {% if p.linkedin %}<li><a href="https://www.linkedin.com/in/{{ p.linkedin }}"><i class="fab fa-linkedin"></i></a></li>{% endif %}
                           {% if p.web %}<li><a href="{{ p.web }}"><i class="fa fa-link"></i></a></li>{% endif %}
                        </ul>
                     </div>
                     <!-- /team_img -->
                     <div class="team-content">
                        <a href="{{ p.url }}">
-                          <h5 class="title">{{ p.name }}</h5>
+                          <h5 class="title">{{ p.jmeno }}</h5>
                        </a>
                        <span class="post">{{ p.position }}</span>
                        <p>{{ p.bio }}</p>

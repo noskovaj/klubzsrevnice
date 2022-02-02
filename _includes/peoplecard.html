@@ -7,7 +7,7 @@
     <!-- caption -->
     <div class="team-caption">
        <a href="{{ p.url }}">
-          <h4>{{ p.name }}</h4>
+          <h4>{{ p.jmeno }}</h4>
        </a>
        <h6>{{ p.position }}</h6>
        <p>
@@ -20,7 +20,7 @@
        {% if p.mail %}<a href="mailto:{{ p.mail }}"><i class="fa fa-envelope"></i></a>{% endif %}
        {% if p.fb %}<a href="https://www.facebook.com/{{ p.fb }}"><i class="fab fa-facebook"></i></a>{% endif %}
        {% if p.twitter %}<a href="https://twitter.com/{{ p.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
-       {% if p.linkedin %}<a href="www.linkedin.com/in/{{ p.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
+       {% if p.linkedin %}<a href="https://www.linkedin.com/in/{{ p.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
        {% if p.web %}<a href="{{ p.web }}"><i class="fa fa-link"></i></a>{% endif %}
     </div>
     {% endif %}

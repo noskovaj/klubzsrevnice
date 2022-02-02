@@ -1,5 +1,5 @@
 ---
-name: Renata Dudová
+jmeno: Renata Dudová
 position: 
 photo: renata.jpg
 mail: 

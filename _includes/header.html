@@ -63,12 +63,12 @@
                         <a class="nav-link" href="/">Domů</a>
                     </li>
                     <!-- menu item -->
-                    <li class="nav-item {% if page.url == "/zapojtese" %}active{% endif %}">
+                    <li class="nav-item {% if page.url contains "/zapojtese" %}active{% endif %}">
                         <a class="nav-link" href="/zapojtese">Jak se zapojit</a>
                     </li>
                     <!-- menu item -->
-                    <li class="nav-item {% if page.url == "/lide" %}active{% endif %}">
-                        <a class="nav-link" href="/lide">Naši lidé ({{ page.url }})</a>
+                    <li class="nav-item {% if page.url contains "/lide" %}active{% endif %}">
+                        <a class="nav-link" href="/lide">Naši lidé</a>
                     </li>
                     <!-- menu item -->
                     <li class="nav-item dropdown">
@@ -82,11 +82,11 @@
                         </div>
                     </li>
                     <!-- menu item -->
-                    <li class="nav-item">
+                    <li class="nav-item {% if page.url contains "/dokumenty" %}active{% endif %}">
                         <a class="nav-link" href="/dokumenty">Dokumenty</a>
                     </li>
                     <!-- menu item -->
-                    <li class="nav-item">
+                    <li class="nav-item {% if page.url contains "/kontakt" %}active{% endif %}">
                         <a class="nav-link" href="/kontakt">Kontakt</a>
                     </li>
                     </ul>

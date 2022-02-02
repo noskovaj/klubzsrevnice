@@ -1,5 +1,5 @@
 ---
-name: Lucie Jislová
+jmeno: Lucie Jislová
 position: místopředsedkyně
 photo: lucie.jpg
 mail: 

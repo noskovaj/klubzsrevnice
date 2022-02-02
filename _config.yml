@@ -10,7 +10,15 @@ plugins:
 collections:
   people:
     output: true
+    layout: people
     permalink: /lide/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "people"
 
 
 exclude:

@@ -2491,7 +2491,7 @@ a .card-title:hover {
 	z-index: 1;
 }
 
-.accordion a:before {
+.accordion .card-header a:before {
 	content: "\f068";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;

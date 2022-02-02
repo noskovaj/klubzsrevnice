@@ -1,0 +1,57 @@
+---
+layout: page
+bread: Lidé
+breadlink: /lide
+---
+<!-- ==== Page Content ==== -->
+<div class="page container">
+    <div class="row">
+       <!-- page with sidebar starts -->
+       <div class="col-lg-9 page-with-sidebar">
+          <div class="col-lg-12">
+             <div class="row">
+                <!-- Image -->
+                <div class="col-lg-5 text-center">
+                   <img src="/img/team/{{ page.photo }}" class="img-fluid rounded" alt="">
+                   <!-- ornament starts-->
+                   <div class="ornament-stars" data-aos="zoom-out"></div>
+                </div>
+                <!-- /col-lg -->
+                <div class="col-lg-7">
+                   <h3 class="res-margin mt-5 mb-1">{{ page.jmeno }}</h3>
+                   <h6>{{ page.position }}</h6>
+                   <p class="h7">{{ page.bio }}</p>
+                   <!-- social icons -->
+                   <ul class="social-media">
+                    {% if page.mail %}<li><a href="mailto:{{ page.mail }}"><i class="fa fa-envelope"></i></a></li>{% endif %}
+                    {% if page.fb %}<li><a href="https://www.facebook.com/{{ page.fb }}"><i class="fab fa-facebook"></i></a></li>{% endif %}
+                    {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}"><i class="fab fa-twitter"></i></a></li>{% endif %}
+                    {% if page.linkedin %}<li><a href="https://www.linkedin.com/in/{{ page.linkedin }}"><i class="fab fa-linkedin"></i></a></li>{% endif %}
+                    {% if page.web %}<li><a href="{{ page.web }}"><i class="fa fa-link"></i></a></li>{% endif %}
+                   </ul>
+                </div>
+                <!-- /col-lg -->
+             </div>
+             <!-- /row -->
+             <h4 class="mt-5">O mě</h4>
+             <p>{{ content }}</p>
+             {% if page.qualification %}
+             <h5 class="mt-3">Moje kvalifikace</h5>
+             <!-- custom list -->
+             <ul class="custom pl-0">
+               {% for q in page.qualification %}
+                <li>{{ q }}</li>
+               {% endfor %}
+             </ul>
+             <!-- /ul -->
+             {% endif %}
+             <!-- custom link -->
+             <a class="custom-link float-left mt-5" href="/lide">Zbět na přehled lidí</a>
+          </div>
+          <!-- /col-lg-12-->
+       </div>
+       <!-- /page-with-sidebar -->
+       {% include sidebar.html %}
+    </div>
+    <!-- /row -->
+ </div>

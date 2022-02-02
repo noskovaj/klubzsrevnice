@@ -94,7 +94,7 @@ p.subtitle,
 /* Red */
 
 #divider.primary path {
-	fill: #E8373D;
+	fill: #e73b48;
 }
 
 .accordion .card-link:hover,
@@ -119,15 +119,15 @@ p.subtitle,
 .page-link,
 footer,
 .nav-pills .nav-link {
-	background-color: #E8373D;
+	background-color: #e73b48;
 }
 
 .bg-primary {
-	background-color: #E8373D!important;
+	background-color: #e73b48!important;
 }
 
 .colored-nav .navbar{
-	background-color: #E8373D!important;
+	background-color: #e73b48!important;
 }
 .team-style2 .social-icons i:hover,
 .team-style1:before,
@@ -145,11 +145,11 @@ ul.social-media li:hover i,
 .navbar-brand span,
 .colored-nav .top-bar .contact-details i,
 .colored-nav .top-bar a:hover{
-	color: #E8373D;
+	color: #e73b48;
 }
 
 .text-primary {
-	color: #E8373D!important;
+	color: #e73b48!important;
 }
 
 .team-style1 .post,
@@ -158,7 +158,7 @@ ul.social-media li:hover i,
 .btn-primary:focus,
 .btn-primary:not(:disabled):not(.disabled):active,
 .page-item.active .page-link {
-	border-color: #E8373D;
+	border-color: #e73b48;
 }
 
 /* Orange */

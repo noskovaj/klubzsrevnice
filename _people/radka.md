@@ -1,5 +1,5 @@
 ---
-name: Radka Wallerová
+jmeno: Radka Wallerová
 position: 
 photo: radka.jpg
 mail: 
