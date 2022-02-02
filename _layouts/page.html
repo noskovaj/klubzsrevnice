@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container" >
+       <!-- jumbo-heading -->
+       <div class="jumbo-heading" data-aos="fade-down">
+          <h1>Our Team</h1>
+          <!-- Breadcrumbs -->
+          <nav aria-label="breadcrumb">
+             <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Domů</a></li>
+                {% if layout.bread %}<li class="breadcrumb-item"><a href="{{ layout.breadlink }}">{{ layout.bread }}</a></li>{% endif %}
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+             </ol>
+          </nav>
+          <!-- /breadcrumb -->
+       </div>
+       <!-- /jumbo-heading -->
+    </div>
+    <!-- /container -->
+ </div>
+ <!-- /jumbotron -->
+ {{ content }}

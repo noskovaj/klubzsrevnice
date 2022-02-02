@@ -1178,12 +1178,7 @@ ul.slider-pagi {
 	padding: 15px;
 	border-radius: 20px;
 	color: #fff;
-	transition: all 0.3s ease-in-out;
 	border: 5px solid transparent;
-}
-
-.team-style3:hover {
-	border: 5px solid #cecece;
 }
 
 .team-style3 .team-caption {
@@ -1239,7 +1234,7 @@ ul.slider-pagi {
 /* Home gallery background */
 
 #gallery-home {
-	background-image: url("../img/ornaments/numbers1.png"), url("../img/ornaments/numbers2.png");
+	background-image: url("/img/ornaments/numbers1.png"), url("/img/ornaments/numbers2.png");
 	background-repeat: no-repeat;
 	background-position: left 25%, right 55%;
 	background-attachment: fixed;
@@ -1481,7 +1476,7 @@ ul.slider-pagi {
 /* blog on home page */
 
 #blogprev-home {
-	background-image: url("../img/ornaments/doodlesbg.png");
+	background-image: url("/img/ornaments/doodlesbg.png");
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: contain;
@@ -1680,7 +1675,7 @@ ul.slider-pagi {
 /* background on counter section */
 
 .counter-calltoaction {
-	background-image: url("../img/call-to-action/counterbg.jpg");
+	background-image: url("/img/call-to-action/counterbg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -1691,7 +1686,7 @@ ul.slider-pagi {
 /* background on features section */
 
 .features-bg {
-	background-image: url("../img/ornaments/childrenbg.png");
+	background-image: url("/img/ornaments/childrenbg.png");
 	background-repeat: no-repeat;
 }
 
@@ -1699,7 +1694,7 @@ ul.slider-pagi {
 /* background on callout section */
 
 #callout {
-	background-image: url("../img/call-to-action/callout.jpg");
+	background-image: url("/img/call-to-action/callout.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -1710,7 +1705,7 @@ ul.slider-pagi {
 /* background on enroll section */
 
 .enroll-calltoaction {
-	background-image: url("../img/call-to-action/enroll.png")!important;
+	background-image: url("/img/call-to-action/enroll.png")!important;
 	background-repeat: no-repeat!important;
 	background-position: left bottom!important;
 }
@@ -1863,7 +1858,7 @@ border-radius: 20px 20px 0% 0%;
 }
 
 .overlay-background-image {
-	background-image: url("../img/example.jpg");
+	background-image: url("/img/example.jpg");
 	background-position: center;
 	background-size: cover;
 }
@@ -2166,7 +2161,7 @@ label {
 /*ornaments */
 
 .ornament-stars:after {
-	background: url("../img/ornaments/ornament1.png");
+	background: url("/img/ornaments/ornament1.png");
 	content: "";
 	position: absolute;
 	margin-top: -115px;
@@ -2177,7 +2172,7 @@ label {
 }
 
 .ornament-bubbles:after {
-	background: url("../img/ornaments/ornament2.png");
+	background: url("/img/ornaments/ornament2.png");
 	content: "";
 	position: absolute;
 	margin-top: -165px;
@@ -2188,7 +2183,7 @@ label {
 }
 
 .ornament-rainbow:after {
-	background: url("../img/ornaments/ornament3.png");
+	background: url("/img/ornaments/ornament3.png");
 	content: "";
 	position: absolute;
 	margin-top: -65px;
@@ -2209,7 +2204,7 @@ label {
 }
 
 .pattern2 {
-	background-image: url("../img/ornaments/pattern2.png");
+	background-image: url("/img/ornaments/pattern2.png");
 	background-position: center bottom;
 	background-repeat: repeat-x;
 }
@@ -2358,7 +2353,6 @@ label {
 /* cards */
 
 .card {
-	background: #f5f5f5;
 	display: block;
 	border: 0px;
 	border-radius: 15px;
@@ -2802,7 +2796,7 @@ ul.checkmark li:before {
 /* Jumbotron */
 
 .jumbotron {
-	background: url("../img/jumbotron.jpg");
+	background: url("/img/jumbotron.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: contain;
@@ -3399,6 +3393,9 @@ ul.checkmark li:before {
 		padding-top: 40px;
 		padding-bottom: 0px;
 	}
+	.card-columns {
+		column-count: 1!important;
+	}
 }
 
 
@@ -3570,6 +3567,9 @@ ul.checkmark li:before {
 	.navbar-collapse.show {
 		overflow-y: scroll!important;
 		overflow-x: hidden!important;
+	}
+	.card-columns {
+		column-count: 2;
 	}
 }
 
