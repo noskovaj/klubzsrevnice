@@ -27,7 +27,7 @@ Last change:26th April 2019
 /*=========================== General and Typography ============================ */
 
 body {
-	font-family: 'Source Sans pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #6A6A71;
 	font-size: 17px;
 	line-height: 1.7;
@@ -43,25 +43,25 @@ p {
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1em;
-	color: #151515;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 900;
+	color: #3a283c;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
 	text-transform: uppercase;
 }
 
 h2 {
-	color: #151515;
+	color: #3a283c;
 	font-size: 2.8em;
 	font-weight: 800;
-	font-family: Nunito;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.0;
 }
 
 h3 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2.2em;
-	color: #151515;
-	font-weight: 600;
+	color: #3a283c;
+	font-weight: 500;
 	margin-bottom: 20px;
 	line-height: 1.1;
 }
@@ -82,7 +82,7 @@ h5 {
 
 h6 {
 	color: #0E1B23;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.3em;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -90,9 +90,9 @@ h6 {
 
 .h7 {
 	color: #949393;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 0.95em;
-	font-weight: 900;
+	font-weight: 800;
 	margin-bottom: 20px;
 	line-height: 1.3;
 	letter-spacing: 1px;
@@ -101,7 +101,7 @@ h6 {
 }
 
 .lead {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.3em;
 }
 
@@ -123,12 +123,12 @@ p.subtitle {
 	display: inline;
 	font-size: .93em;
 	letter-spacing: 1.5px;
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 	border-bottom: 1px dashed;
 	padding-bottom: 20px;
-	font-family: Nunito;
+	font-family: Raleway;
 	color: #949393;
 }
 
@@ -154,13 +154,13 @@ a:focus {
 /* Custom Link */
 
 .custom-link {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin-top: 0px;
 	display: inline-block;
 	margin: 10px;
 	padding: 5px 20px;
 	border-radius: 0px;
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 16px;
 	border: 3px solid;
 	letter-spacing: 0.5px;
@@ -278,8 +278,8 @@ a:focus {
 }
 
 .navbar-nav a {
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
 	font-size: 16.5px;
 	letter-spacing: 0.5px;
 	line-height: 25px;
@@ -371,7 +371,7 @@ a:focus {
 .colored-nav .top-bar {
 	background: #fff;
 }
-.colored-nav .top-bar .contact-details li{color:#222;}
+.colored-nav .top-bar .contact-details li{color:#3a283c;}
 
 .colored-nav .navbar .nav-item a {
     color: #fff;
@@ -415,10 +415,10 @@ ol {
 	font-size: 13px;
 	display: inline-block;
 	line-height: 42px;
-	font-weight: 700;
+	font-weight: 800;
 	color: #fff;
 	padding: 0px 20px;
-	font-family: Nunito;
+	font-family: Raleway;
 }
 
 
@@ -519,14 +519,14 @@ ul.social-list li.list-inline-item:not(:last-child) {
 	letter-spacing: 0.5px;
 	line-height: 1.1;
 	margin-bottom: 15px;
-	color: #222;
+	color: #3a283c;
 }
 
 .header-text span {
-	color: #222;
-	font-weight: 700;
+	color: #3a283c;
+	font-weight: 800;
 	font-size: 40px;
-	font-family: Nunito;
+	font-family: Raleway;
 }
 
 .header-p {
@@ -940,7 +940,7 @@ ul.slider-pagi {
 }
 
 .testimonial .description {
-	font-family: Nunito;
+	font-family: Raleway;
 }
 
 .testimonial .testimonial-review {
@@ -981,8 +981,8 @@ ul.slider-pagi {
 
 .counter .counter-value {
 	display: block;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
 	font-size: 40px;
 	color: #fff;
 	letter-spacing: 2px;
@@ -991,8 +991,8 @@ ul.slider-pagi {
 .counter .counter-value:before {
 	content: "+";
 	display: inline-block;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
 	font-size: 30px;
 	color: #fff;
 	margin-right: 5px;
@@ -1664,8 +1664,8 @@ ul.slider-pagi {
 #not-found span {
 	font-size: 25px;
 	color: #0E1B23;
-	font-family: Nunito;
-	font-weight: 600;
+	font-family: Raleway;
+	font-weight: 500;
 }
 
 
@@ -1874,12 +1874,12 @@ border-radius: 20px 20px 0% 0%;
 	padding: 10px 30px;
 	outline: none;
 	letter-spacing: 1px;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	border-radius: 20px;
 	text-transform: uppercase;
 	margin-top: 15px;
 	white-space: normal;
-	font-weight: 900;
+	font-weight: 800;
 	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
 }
 
@@ -2084,7 +2084,7 @@ ul.social-media i {
 
 blockquote {
 	padding: 50px 30px;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin-top: 50px;
 	border-radius: 20px;
 	border-top: 5px dashed #f5f5f5;
@@ -2473,7 +2473,7 @@ a .card-title:hover {
 }
 
 .accordion .card-header {
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 17px;
 	padding: 0px;
 	line-height: 1.3;
@@ -2481,7 +2481,7 @@ a .card-title:hover {
 	border-radius: 5px;
 	margin-bottom: px;
 	letter-spacing: 0.7px;
-	font-family: Nunito;
+	font-family: Raleway;
 	border: 0;
 }
 
@@ -2763,7 +2763,7 @@ ul.checkmark li:before {
 }
 
 .list-group-item {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	transition: all 0.2s ease-in-out;
 	margin-bottom: 4px;
 	border: 0;
@@ -3023,8 +3023,8 @@ ul.checkmark li:before {
 	padding: 10px 40px;
 	margin: 5px 10px;
 	transition: all 0.2s ease-in-out;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -3059,7 +3059,7 @@ ul.checkmark li:before {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: no-wrap;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 1px;
 }
 
@@ -3097,9 +3097,9 @@ ul.checkmark li:before {
 
 .page-link {
 	transition: all 0.2s ease-in-out;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 800;
 	border: 1px solid #fff;
 }
 
