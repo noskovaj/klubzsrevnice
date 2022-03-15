@@ -468,7 +468,7 @@ ul.social-list li.list-inline-item:not(:last-child) {
 }
 
 .header-wrapper .header-text {
-	margin-top: 15%;
+	margin-top: 6%;
 	white-space: normal;
 }
 
@@ -509,7 +509,7 @@ ul.social-list li.list-inline-item:not(:last-child) {
 .parallax-slider .header-text {
 	margin-left: 5%;
 	width: 40%!important;
-	margin-top: 15%;
+	margin-top: 6%;
 }
 
 .header-text h1 {
@@ -3349,7 +3349,7 @@ ul.checkmark li:before {
 	}
 	.header-text h1 {
 		margin-bottom: 20px;
-		font-size: 7em;
+		font-size: 6em;
 	}
 	.page {
 		padding-top: 40px;
@@ -3530,6 +3530,14 @@ ul.checkmark li:before {
 		font-size: 50px!important;
 		margin-top: 30px;
 	}
+	.header-text h1 {
+		font-size: 42px!important;
+		margin-top: 30px;
+	}
+	.header-text span {
+		font-size: 30px!important;
+		margin-top: 30px;
+	}
 	/*top bar */
 	.top-bar .contact-details li {
 		font-size: 13px;
@@ -3690,6 +3698,12 @@ ul.checkmark li:before {
 		width: 50%!important;
 		position: absolute;
 		margin-left: 40%;
+	}
+	.header-text span {
+		font-size: 32px;
+	}
+	.header-text h1 {
+		font-size: 55px;
 	}
 	.header-text.full-width {
 		width: 100%!important;
