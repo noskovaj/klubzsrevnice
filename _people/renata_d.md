@@ -1,7 +1,7 @@
 ---
 jmeno: Renata Dudová
 position: 
-photo: renata.jpg
+photo: renatad.jpg
 mail: 
 fb: 
 twitter: 

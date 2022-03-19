@@ -2,7 +2,7 @@
 <div class="card team-style3 bg-secondary pattern2">
     <!-- image -->
     <a href="{{ p.url }}">
-    <img src="/img/team/{{ p.photo }}" class="img-fluid rounded" alt="" />
+    <img src="/img/team/{{ p.photo | default: 'unknown.jpg' }}" class="img-fluid rounded" alt="" />
     </a>
     <!-- caption -->
     <div class="team-caption">
@@ -11,7 +11,7 @@
        </a>
        <h6>{{ p.position }}</h6>
        <p>
-           {{ p.content }}
+           {{ p.excerpt | truncatewords: 50  }}
        </p>
     </div>
     {% if p.mail or p.fb or p.twitter or p.linkedin or p.web %}
