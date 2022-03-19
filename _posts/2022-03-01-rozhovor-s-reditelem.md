@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Ředitel: Klub rodičů velmi vítám"
+title:  "Klub rodičů velmi vítám"
 autor: jitka
 image: reznicek.jpg
 quote: Klub rodičů je z mého pohledu velmi zajímavý a potřebný partner školy a já jeho oživení vítám.
 quotecite: Tomáš Řezníček
 tags: rozhovor
 ---
-Vyzpovídali jsme našeho pana ředitele Mgr. Tomáše Řezníčka abychom zjistili, co si o znovuobnovení Klubu rodičů myslí.
+Vyzpovídali jsme našeho pana ředitele Mgr. Tomáše Řezníčka, abychom zjistili, jak vnímá obnovení Klubu rodičů.
 
 <!--vice-->
 
