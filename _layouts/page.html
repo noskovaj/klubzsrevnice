@@ -20,7 +20,7 @@ layout: default
              <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">Domů</a></li>
                 {% if layout.bread %}<li class="breadcrumb-item"><a href="{{ layout.breadlink }}">{{ layout.bread }}</a></li>{% endif %}
-                <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
+                {% unless layout.hidelastbread %}<li class="breadcrumb-item active" aria-current="page">{{ title }}</li>{% endunless %}
              </ol>
           </nav>
           <!-- /breadcrumb -->

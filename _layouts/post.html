@@ -1,0 +1,86 @@
+---
+layout: page
+bread: Aktuality
+breadlink: /aktuality
+hidelastbread: true
+---
+<!-- ==== Page Content ==== -->
+<div class="page">
+    <div class="container">
+       <div class="row">
+          <!-- Post Content Column -->
+          <div class="col-lg-9 blog-card page-with-sidebar">
+             <h2 class="mb-2">{{ page.title }}</h2>
+             <!-- Post info-->
+             <div class="post-info text-muted">
+                <i class="fas fa-calendar margin-icon"></i>{{ page.date | date: "%-d. %-m. %Y" }}
+                {% if page.autor %}
+                    {% assign autorurl = "/lide/" | append: page.autor %}
+                    {% assign autor = site.people 
+                     | where_exp:"l", "l.url == autorurl" 
+                     | first %}
+                     / <a href="{{ autorurl }}"><i class="fas fa-user"></i> {{ autor.jmeno }}</a>
+                {% endif %}
+             </div>
+             <hr>
+             <!-- Preview Image -->
+             <img src="/img/blog/{{ page.image }}" class="img-blog-top" alt="">
+             <hr>
+             <!-- Post Content -->
+             {% if page.quote %}
+             {% if page.quotecite %}
+             {% capture quotecite %}<cite>{{ page.quotecite }}</cite>{% endcapture %}
+             {% else %}
+             {% capture quotestyle %}pb-1{% endcapture %}
+             {% endif %}
+             {% capture quote %}
+             <blockquote class="blockquote {{ quotestyle }}">
+                <p>{{ page.quote }}</p>
+                {{ quotecite }}
+             </blockquote>
+             {% endcapture %}
+             {% endif %}
+             {{ page.content | replace: "<!--quote-->", quote }}
+          </div>
+          <!-- /page-with-sidebar -->
+          <!-- Sidebar -->
+          <div id="sidebar" class="h-50 col-lg-3 sticky-top">
+             
+             <div class="widget-area notepad">
+                <h5 class="sidebar-header">Další aktuality</h5>
+                <div class="list-group">
+                   <a href="#" class="list-group-item list-group-item-action">Daycare</a>
+                   <a href="#" class="list-group-item list-group-item-action">News</a>
+                   <a href="#" class="list-group-item list-group-item-action">Parent Alerts</a>
+                   <a href="#" class="list-group-item list-group-item-action">Our Events</a>
+                </div>
+             </div>
+             <!--/widget-area notepad -->
+             <div class="widget-area notepad">
+                <h5 class="sidebar-header">Tagy</h5>
+                <div class="tags-widget">
+                   <a href="#" class="badge badge-pill badge-default">Rozhovor</a>
+                   <a href="#" class="badge badge-pill badge-default">Klub</a>
+                   <a href="#" class="badge badge-pill badge-default">Akce</a>
+                </div>
+             </div>
+             <!--/widget-area notepad -->
+             <div class="widget-area notepad">
+                <h5 class="sidebar-header">Sledujte nás</h5>
+                <div class="contact-icon-info">
+                   <ul class="social-media text-center">
+                      <!--social icons -->
+                      <li><a href="{{ site.facebook }}"><i class="fab fa-facebook-square"></i></a></li>
+                   </ul>
+                </div>
+                <!--/contact-icon-info -->
+             </div>
+             <!--/widget-area notepad -->
+          </div>
+          <!--/sidebar -->      
+       </div>
+       <!-- /.row -->
+    </div>
+    <!-- /.container -->
+ </div>
+ <!-- /page -->

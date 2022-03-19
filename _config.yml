@@ -4,6 +4,12 @@ description: >-
 baseurl: "" 
 url: "https://www.klubzsrevnice.cz/"
 
+prihlaska: https://forms.gle/U3drc9sVUq1uaNng7
+facebook: #
+
+excerpt_separator: <!--vice-->
+permalink: /aktuality/:year/:title/
+
 plugins:
   - jekyll-feed
 

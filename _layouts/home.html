@@ -171,16 +171,18 @@ layout: default
            <div class="row">
               <div class="col-lg-7 ">
                  <h3>Náš cíl</h3>
-                 <p class="mt-4 res-margin">Jsme rodiče a přátelé ZŠ Řevnice, kterým na naší škole záleží, 
-                     a proto jí chceme v rámci svých možností a ve spolupráci s pedagogickým sborem pomáhat. 
-                     Naší snahou je, aby řevnická škola byla tou nejlepší školou pro naše děti, 
-                     aby do ní chodily rády, cítily se v ní bezpečně a získaly v ní znalosti a 
-                     dovednosti potřebné pro život ve 21. století.
-                     
-                     Protože věříme, že možností, jak školu podpořit a také lidí, kteří by jí rádi pomohli, 
-                     je hodně, rozhodli jsme se obnovit činnost klubu rodičů a přátel školy a vyzvat všechny zájemce ke spolupráci. 
-                     Protože víc hlav víc ví, víc rukou toho víc udělá a čím více nás bude, 
-                     tím větší budou naše možnosti a tím více toho pro školu a naše děti uděláme :-).                                          </p>
+                  <p class="mt-4 res-margin">
+                  Jsme rodiče a přátelé ZŠ Řevnice, kterým na naší škole záleží, 
+                  a proto jí chceme v rámci svých možností a ve spolupráci s pedagogickým sborem pomáhat. 
+                  Naší snahou je, aby řevnická škola byla tou nejlepší školou pro naše děti, aby do ní chodily 
+                  rády, cítily se v ní bezpečně a získaly v ní znalosti a dovednosti potřebné pro život 
+                  ve 21. století.</p>
+                  <p>
+                  Protože věříme, že možností, jak školu podpořit a také lidí, kteří by jí rádi pomohli, je hodně, 
+                  rozhodli jsme se obnovit činnost klubu rodičů a přátel školy a vyzvat všechny zájemce ke spolupráci. 
+                  Protože víc hlav víc ví, víc rukou toho víc udělá a čím více nás bude, tím větší budou naše možnosti 
+                  a tím více toho pro školu a naše děti uděláme :-).                                                                                                                                                                       
+                  </p>
                  <a href="/lide" class="btn btn-secondary ">naši lidé</a>
               </div>
               <!-- /col-lg -->
@@ -261,63 +263,34 @@ layout: default
            <!-- /section-heading -->
            <!-- features -->
            <div class="mb-4">
-                Ve spolupráci s vedením školy se už leccos povedlo, třeba výuka s anglicky mluvícími pedagogy (tzv. CLIL),
-                kroužky robotiky nebo podpora dětí ze sociálně slabších rodin. Chtěli bychom ale také pomáhat při přípravě,
-                organizování a financování různých akcí, jako jsou vánoční trhy, školní ples, školní akademie, případně
-                vymyslet a zorganizovat další zábavné a kulturní akce pro děti a pro školu. 
-                Plánujeme také vzdělávací aktivity formou tzv. rodičovských kaváren na různá výchovně - vzdělávací témata
-                jako je například kybernetická bezpečnost, šikana, výchova s technologiemi a mnohá další podle zájmu. 
-                Svojí činností chceme přispět ke zkvalitnění školního prostředí, zpestření výuky a k rozšíření možností 
-                pro trávení volného času. Vítáme všechny náměty a komentáře lidí se zájmem o školu, které budeme 
-                konzultovat s vedením ZŠ Řevnice.
+            Ve spolupráci s vedením školy a učiteli se už leccos povedlo. 
+            Třeba výuka s anglicky mluvícími učiteli (tzv. CLIL), kroužky robotiky, podpora dětí ze sociálně slabších rodin
+            nebo burzy jarního a podzimního oblečení ve školní jídelně. Chtěli bychom ale také pomáhat při přípravě, 
+            organizování a financování různých akcí, jako jsou vánoční trhy, školní ples, školní akademie, případně 
+            vymyslet a zorganizovat další zábavné a kulturní akce pro děti a pro školu. Plánujeme tzv. rodičovské 
+            kavárny na různá výchovně - vzdělávací témata jako například kybernetická bezpečnost, šikana, výchova 
+            s technologiemi a mnohá další podle zájmu. Svojí činností chceme přispět ke zkvalitnění školního prostředí, 
+            zpestření výuky a k rozšíření možností pro trávení volného času. Vítáme všechny náměty a komentáře lidí 
+            se zájmem o školu, které budeme konzultovat s vedením ZŠ Řevnice.
             </div>
            <div class="row ">
               <div class="col-lg-6">
                  <div class="row">
                     <div class="col-md-6 col-lg-6">
-                       
-                       <!-- feature -->
+                    {% for o in site.data.okruhy limit: 4 %}
                        <div class="feature-with-icon">
                           <div class="icon-features">
                              <!-- icon -->
-                             <i class="flaticon-maternity text-primary"></i>
+                             <i class="{{ o.icon }} text-primary"></i>
                           </div>
-                          <h5>Rodičovské kavárny</h5>
-                          <p>Etiam rhoncus leo a dolor placerat, nec elem entum ipsum convall.</p>
+                          <h5>{{ o.nazev }}</h5>
+                          <p>{{ o.text }}</p>
                        </div>
-                       <!-- /feature-with-icon-->
-                       <!-- feature -->
-                       <div class="feature-with-icon mt-5">
-                          <div class="icon-features">
-                             <!-- icon -->
-                             <i class="flaticon-open-book-1 text-primary"></i>
-                          </div>
-                          <h5>Financování akcí</h5>
-                          <p>Etiam rhoncus leo a dolor placerat, nec elem entum ipsum convall.</p>
-                       </div>
-                       <!-- /feature-with-icon-->
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                       <!-- feature -->
-                       <div class="feature-with-icon">
-                          <div class="icon-features">
-                             <!-- icon -->
-                             <i class="flaticon-classroom-1 text-primary"></i>
-                          </div>
-                          <h5>Vzdělávací aktivity</h5>
-                          <p>Etiam rhoncus leo a dolor placerat, nec elem entum ipsum convall.</p>
-                       </div>
-                       <!-- /feature-with-icon-->
-                       <!-- feature -->
-                       <div class="feature-with-icon mt-5">
-                          <div class="icon-features">
-                             <!-- icon -->
-                             <i class="flaticon-baby-boy text-primary"></i>
-                          </div>
-                          <h5>Kroužky pro děti</h5>
-                          <p>Etiam rhoncus leo a dolor placerat, nec elem entum ipsum convall.</p>
-                       </div>
-                       <!-- /feature-with-icon-->
+                     {% if forloop.index == 2 %}  
+                  </div>
+                  <div class="col-md-6 col-lg-6">
+                     {% endif %} 
+                     {% endfor %}
                     </div>
                     <!-- /col-l -->
                  </div>
@@ -335,56 +308,6 @@ layout: default
         <!-- /container -->
      </section>
      <!-- /section ends -->
-     <!-- Section  -->
-     <section id="counter-section" class="container-fluid counter-calltoaction bg-fixed overlay"  data-100-bottom="background-position: 50% 100px;"
-        data-top-bottom="background-position: 50% -100px;" >
-        <div id="counter" class="container">
-           <div  class="row col-lg-10 offset-lg-1">
-              <!-- Counter -->
-              <div class="col-xl-4 col-md-4">
-                 <div class="counter">
-                    <div class="counter-wrapper bg-primary">
-                       <i class="counter-icon flaticon-teacher"></i>
-                       <!-- insert your final value on data-count= -->
-                       <div class="counter-value" data-count="15">0</div>
-                       <h3 class="title">aktivních rodičů</h3>
-                    </div>
-                 </div>
-                 <!-- /counter -->
-              </div>
-              <!-- /col-lg -->
-              <!-- Counter -->
-              <div class="col-xl-4 col-md-4">
-                 <div class="counter">
-                    <div class="counter-wrapper bg-secondary">
-                       <i class="counter-icon  flaticon-family"></i>
-                       <!-- insert your final value on data-count= -->
-                       <div class="counter-value" data-count="5">0</div>
-                       <h3 class="title">členů spolku</h3>
-                    </div>
-                 </div>
-                 <!-- /counter -->
-              </div>
-              <!-- /col-lg -->
-              <!-- Counter -->
-              <div class="col-xl-4 col-md-4">
-                 <div class="counter">
-                    <div class="counter-wrapper bg-tertiary">
-                       <i class="counter-icon flaticon-children"></i>
-                       <!-- insert your final value on data-count= -->
-                       <div class="counter-value" data-count="600">0</div>
-                       <h3 class="title">dětí</h3>
-                    </div>
-                 </div>
-                 <!-- /counter -->
-              </div>
-              <!-- /col-lg -->		 
-           </div>
-           <!-- /row -->
-        </div>
-        <!-- /container -->
-     </section>
-     <!-- /section ends-->
      <!-- section -->
      <section id="blogprev-home" data-100-bottom="background-position: 0% 120%;"
         data-top-bottom="background-position: 0% 100%;">
@@ -397,126 +320,42 @@ layout: default
            <!-- /section-heading -->
            <!-- blog carousel -->
            <div class="carousel-3items owl-carousel owl-theme mt-0">
-              <!-- blog-box -->
+              {% for p in site.posts limit: 6 %}
               <div class="blog-box">
                  <!-- image -->
-                 <a href="blog-single.html">
-                    <div class="image"><img src="/img/blog/blogstyle2-1.jpg" alt=""/></div>
+                 <a href="{{ p.url }}">
+                    <div class="image"><img src="/img/blog/{{ p.image | default: 'blogstyle2-1.jpg' }}" alt=""/></div>
                  </a>
                  <!-- blog-box-caption -->
                  <div class="blog-box-caption">
                     <!-- date -->
-                    <div class="date"><span class="day">12</span><span class="month">May</span></div>
-                    <a href="blog-single.html">
-                       <h4>Helping Your Child with Socialization</h4>
+                    {% assign m = p.date | date: "%-m" | minus: 1 %}
+                    <div class="date"><span class="day">{{ p.date | date: "%e" }}</span><span class="month">{{ site.data.cs.months[m] }}</span></div>
+                    <a href="{{ p.url }}">
+                       <h4>{{ p.title }}</h4>
                     </a>
                     <!-- /link -->
                     <p>
-                       Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis...
+                       {{ p.excerpt }}
                     </p>
                  </div>
                  <!-- blog-box-footer -->
                  <div class="blog-box-footer">
-                    <div class="author">Posted by<a href="#"><i class="fas fa-user"></i>Lauren Smith</a></div>
-                    <div class="comments"><a href="blog-single.html"><i class="fas fa-comment"></i>23</a></div>
+                    {% if p.autor %}
+                    {% assign autorurl = "/lide/" | append: p.autor %}
+                    {% assign autor = site.people 
+                     | where_exp:"l", "l.url == autorurl" 
+                     | first %}
+                    <div class="author">Napsal{{ autor.gender | default: "a" }}: <a href="{{ autorurl }}"><i class="fas fa-user"></i>{{ autor.jmeno }}</a></div>
+                    {% endif %}
                     <!-- Button -->	 
                     <div class="text-center col-md-12">
-                       <a href="blog-single.html" class="btn btn-primary ">Read more</a>
+                       <a href="{{ p.url }}" class="btn btn-primary ">více</a>
                     </div>
                  </div>
                  <!-- /blog-box-footer -->
               </div>
-              <!-- /blog-box -->
-              <!-- blog-box -->
-              <div class="blog-box">
-                 <!-- image -->
-                 <a href="blog-single.html">
-                    <div class="image"><img src="/img/blog/blogstyle2-2.jpg" alt=""/></div>
-                 </a>
-                 <!-- blog-box-caption -->
-                 <div class="blog-box-caption">
-                    <!-- date -->
-                    <div class="date"><span class="day">28</span><span class="month">June</span></div>
-                    <a href="blog-single.html">
-                       <h4>Our Healthy meals that toddlers love</h4>
-                    </a>
-                    <!-- /link -->
-                    <p>
-                       Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis...
-                    </p>
-                 </div>
-                 <!-- blog-box-footer -->
-                 <div class="blog-box-footer">
-                    <div class="author">Posted by<a href="#"><i class="fas fa-user"></i>Jonas Doe</a></div>
-                    <div class="comments"><a href="blog-single.html"><i class="fas fa-comment"></i>5</a></div>
-                    <!-- Button -->	 
-                    <div class="text-center col-md-12">
-                       <a href="blog-single.html" class="btn btn-primary ">Read more</a>
-                    </div>
-                 </div>
-                 <!-- /blog-box-footer -->
-              </div>
-              <!-- /blog-box -->
-              <!-- blog-box -->
-              <div class="blog-box">
-                 <!-- image -->
-                 <a href="blog-single.html">
-                    <div class="image"><img src="/img/blog/blogstyle2-3.jpg" alt=""/></div>
-                 </a>
-                 <!-- blog-box-caption -->
-                 <div class="blog-box-caption">
-                    <!-- date -->
-                    <div class="date"><span class="day">02</span><span class="month">July</span></div>
-                    <a href="blog-single.html">
-                       <h4>20 Fun Activities to Do With Your Kids</h4>
-                    </a>
-                    <!-- /link -->
-                    <p>
-                       Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis...
-                    </p>
-                 </div>
-                 <!-- blog-box-footer -->
-                 <div class="blog-box-footer">
-                    <div class="author">Posted by<a href="#"><i class="fas fa-user"></i>Lauren Smith</a></div>
-                    <div class="comments"><a href="blog-single.html"><i class="fas fa-comment"></i>10</a></div>
-                    <!-- Button -->	 
-                    <div class="text-center col-md-12">
-                       <a href="blog-single.html" class="btn btn-primary ">Read more</a>
-                    </div>
-                 </div>
-                 <!-- /blog-box-footer -->
-              </div>
-              <!-- /blog-box -->
-              <!-- blog-box -->
-              <div class="blog-box">
-                 <!-- image -->
-                 <a href="blog-single.html">
-                    <div class="image"><img src="/img/blog/blogstyle2-4.jpg" alt=""/></div>
-                 </a>
-                 <!-- blog-box-caption -->
-                 <div class="blog-box-caption">
-                    <!-- date -->
-                    <div class="date"><span class="day">18</span><span class="month">June</span></div>
-                    <a href="blog-single.html">
-                       <h4>Brain-Boosting Activities for Children</h4>
-                    </a>
-                    <!-- /link -->
-                    <p>
-                       Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis...
-                    </p>
-                 </div>
-                 <!-- blog-box-footer -->
-                 <div class="blog-box-footer">
-                    <div class="author">Posted by<a href="#"><i class="fas fa-user"></i>Jonas Doe</a></div>
-                    <div class="comments"><a href="blog-single.html"><i class="fas fa-comment"></i>11</a></div>
-                    <!-- Button -->	 
-                    <div class="text-center col-md-12">
-                       <a href="blog-single.html" class="btn btn-primary ">Read more</a>
-                    </div>
-                 </div>
-                 <!-- /blog-box-footer -->
-              </div>
-              <!-- /blog-box -->
+              {% endfor %}
            </div>
            <!-- /owl-carousel -->
         </div>
