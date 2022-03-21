@@ -2,7 +2,7 @@
 jmeno: Jitka Nosková
 position: předsedkyně
 photo: jitka.jpg
-mail: 
+mail: noskovaj@centrum.cz
 fb: 
 twitter: 
 linkedin: 
