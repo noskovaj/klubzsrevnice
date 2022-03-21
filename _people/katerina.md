@@ -2,7 +2,7 @@
 jmeno: Kateřina Hüblová
 position: pokladník
 photo: katerina.jpg
-mail: 
+mail: kmachonova@centrum.cz
 fb: 
 twitter: 
 linkedin: 
