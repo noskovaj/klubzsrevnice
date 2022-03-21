@@ -2,7 +2,7 @@
 jmeno: Lucie Jislová
 position: místopředsedkyně
 photo: lucie.jpg
-mail: 
+mail: lucie.jislova@seznam.cz
 fb: 
 twitter: 
 linkedin: 
